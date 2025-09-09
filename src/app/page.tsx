@@ -55,9 +55,9 @@ export default function Home() {
           title="Tokenomics Overview"
           description="Learn more about our token distribution and utility." 
           kpiItems={[
-            { value: "1B", description: "Total Supply", icon: "DollarSign" },
-            { value: "20%", description: "Token Sale", icon: "Coins" },
-            { value: "80%", description: "Liquidity", icon: "Shield" },
+            { value: "1B", description: "Total Supply", icon: DollarSign },
+            { value: "20%", description: "Token Sale", icon: Coins },
+            { value: "80%", description: "Liquidity", icon: Shield },
           ]} />
       </div>
       <div id="footer" data-section="footer" className="scroll-mt-24">
